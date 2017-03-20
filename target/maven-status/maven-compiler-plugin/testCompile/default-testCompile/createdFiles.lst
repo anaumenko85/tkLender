@@ -1,0 +1,6 @@
+com\tklender\test\tkTestLocalization.class
+com\tklender\test\tkTestUserPage.class
+com\tklender\staticdata\PageUrl.class
+com\tklender\test\BasicTestCase.class
+com\tklender\test\tklTestLoginPage.class
+com\tklender\staticdata\PageTitle.class

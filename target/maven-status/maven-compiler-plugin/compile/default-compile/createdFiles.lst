@@ -1,0 +1,12 @@
+com\tklender\pages\Page.class
+com\tklender\pages\AddUserPage.class
+com\tklender\pages\BackFirstPage.class
+com\example\java\WebDriverFactory$1.class
+com\example\java\WebDriverFactory.class
+com\example\java\ConfigProperties.class
+com\tklender\data\UserData.class
+com\tklender\pages\SystemPage.class
+com\tklender\pages\LoginPage.class
+com\tklender\pages\CreditProductPage.class
+com\example\java\WorkWithExcel.class
+com\tklender\containers\Table.class

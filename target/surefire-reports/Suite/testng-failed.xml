@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tklender.test.tkTestUserPage">
+        <methods>
+          <include name="testCreateUser"/>
+          <include name="testEditUser"/>
+          <include name="testDeleteUser"/>
+          <include name="logout"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="tearDownAfterSuite"/>
+          <include name="login"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.tklender.test.tkTestUserPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
