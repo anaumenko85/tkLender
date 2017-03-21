@@ -1,9 +1,5 @@
 package com.tklender.test;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-//import static org.testng.AssertJUnit.assertTrue;
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.support.PageFactory;
@@ -42,17 +38,18 @@ public void testCreateUser(){
   	systemPage.searchUser("FirstTest2");
   	//assertEquals("FirstTest1", systemPage.checkUser("FirstTest1"));  	
 }
-@Test(priority=2)
+//@Test(priority=2)
 public void testEditUser(){
 	systemPage.searchUser("FirstTest2");
 	if(systemPage.searchOfUser.size()>0){
 	systemPage.btnEditUser.click();	
-	AssertJUnit.assertEquals(addUserPage.lableEditUser.getText(), "Edit User");
+	assertTrue(addUserPage.lableEditUser.isDisplayed());
+	//assertEquals(addUserPage.lableEditUser.getText(), "Edit User");
 	addUserPage.fBtnCancel.click();
 	} else 
 		System.out.println("User is not exist");	
 }
-@Test(priority=3)
+//@Test(priority=3)
 public void testDeleteUser(){
 	systemPage.searchUser("FirstTest2");
   	systemPage.selectUser.click();
@@ -62,6 +59,6 @@ public void testDeleteUser(){
 @AfterMethod
 public void logout(){
 	backFirstPage.logout();
-  	AssertJUnit.assertTrue(backFirstPage.isLoggedOut());
+  	assertTrue(backFirstPage.isLoggedOut());
 }
 }

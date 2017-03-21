@@ -1,6 +1,8 @@
 package com.tklender.test;
 
 import org.testng.AssertJUnit;
+import org.testng.AssertJUnit;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.support.PageFactory;
 import com.tklender.pages.AddUserPage;
 import com.tklender.pages.BackFirstPage;
