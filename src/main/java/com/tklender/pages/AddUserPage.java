@@ -5,58 +5,48 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import ru.yandex.qatools.allure.annotations.Step;
+
 public class AddUserPage extends Page{
 
 	
 	
 @FindBy(how=How.ID, using="user.UserName")
-public WebElement flogin;
-@FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")
-public WebElement loginError;
+private WebElement login;
 @FindBy(how=How.ID, using="user.Password")
-public WebElement fPassword;
-@FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]")
-public WebElement fPasswordError;
+private WebElement password;
 @FindBy(how=How.ID, using="user.FirstName")
-public WebElement fFirstName;
-@FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]")
-public WebElement fFirstNameError;
+private WebElement firstName;
 @FindBy(how=How.ID, using="user.LastName")
-public WebElement fLastName;
-@FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]")
-public WebElement fLastNameError;
+private WebElement lastName;
 @FindBy(how=How.ID, using="user.Email")
-public WebElement fEmail;
-@FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]")
-public WebElement fEmailError;
+private WebElement email;
 @FindBy(how=How.ID, using="user.PhoneNumber_int")
-public WebElement fPhone;
-@FindBy(how=How.XPATH, using="id(\"user.PhoneNumber\")/div[1]/div[1]/div[1]")
-public WebElement fPhoneError;
+private WebElement phone;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[1]/div[1]/label[1]/input[1]")
-public WebElement fRoleAdmin;
+private WebElement roleAdmin;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[2]/div[1]/label[1]/input[1]")
-public WebElement fRoleCollateralManager;
+private WebElement roleCollateralManager;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[3]/div[1]/label[1]/input[1]")
-public WebElement fRoleCollector;
+private WebElement roleCollector;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[4]/div[1]/label[1]/input[1]")
-public WebElement fRoleLoanManager;
+private WebElement roleLoanManager;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[5]/div[1]/label[1]")
-public WebElement fRoleOriginator;
+private WebElement roleOriginator;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[6]/div[1]/label[1]/input[1]")
-public WebElement fRoleSupervisor;
+private WebElement roleSupervisor;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[2]/roles-editor[1]/div[1]/div[2]/div[1]/div[7]/div[1]/label[1]")
-public WebElement fRoleUnderwriter;
+private WebElement roleUnderwriter;
 @FindBy(how=How.XPATH, using="//form[@name=\"editUser\"]/div[3]/div[2]/div[1]/div[1]/branch-office-select[1]/div[1]/div[1]/div[1]/span[1]")
-public WebElement fBranch;
+private WebElement branch;
 @FindBy(how=How.XPATH, using="/html/body/div[1]/div[1]/div[1]/div[1]/div[3]/button[1]")
-public WebElement fBtnOk;
+private WebElement btnOk;
 @FindBy(how=How.XPATH, using="/html/body/div[1]/div[1]/div[1]/div[1]/div[3]/button[2]")
-public WebElement fBtnCancel;
+private WebElement btnCancel;
 @FindBy(how=How.XPATH, using="/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]")
-public WebElement fLabelAddUser;
+public WebElement LabelAddUser;
 @FindBy(css= "button.btn.btn-default")
-public WebElement btnCloseIfUserExist;
+private WebElement btnCloseIfUserExist;
 @FindBy(css="strong.ng-binding")
 public WebElement lableIfUserExist;
 @FindBy(css="div.modal-header h2")
@@ -66,28 +56,112 @@ public AddUserPage(WebDriver driver) {
 	// TODO Auto-generated constructor stub
 	super(driver);
 }
-public void addUser(String username){
-	type(flogin, username);
-	type(fPassword, "123456");
-	type(fFirstName,"Test");
-	type(fLastName,"Test");
-	type(fEmail,"test@test.ua");
-	type(fPhone,"1234567890");
-	fRoleAdmin.click();
-	fBtnOk.click();
-}
 public void isUserExist(){
 	try{
 		isElementPresent(lableIfUserExist);
 			btnCloseIfUserExist.click();
-			fBtnCancel.click();	
+			btnCancel.click();	
 	}catch(Exception e){
 		System.out.println("User is not exist");
 	}
-/*	if(	isElementPresent(lableIfUserExist)){
-		btnCloseIfUserExist.click();
-		fBtnCancel.click();	
-	}*/ 
+}
+@Step("Вводим логин юзера")
+public AddUserPage setlogin(String flogin) {
+	login.sendKeys(flogin);
+	return this;
+}
+@Step("Вводим пароль юзера")
+public AddUserPage setfPassword(String fPassword) {
+	password.sendKeys(fPassword);
+	return this;
+}
+@Step("Вводим имя юзера")
+public AddUserPage setfFirstName(String fFirstName) {
+	firstName.sendKeys(fFirstName);
+	return this;
+}
+@Step("Вводим фамилию юзера")
+public AddUserPage setLastName(String fLastName) {
+	lastName.sendKeys(fLastName);
+	return this;
+}
+@Step("Вводим емаил юзера")
+public AddUserPage setfEmail(String fEmail) {
+	email.sendKeys(fEmail);
+	return this;
+}
+@Step("Вводим телефон юзера")
+public AddUserPage setPhone(String fPhone) {
+	phone.sendKeys(fPhone);
+	return this;
+}
+@Step("Устанавливаем роль админ")
+public AddUserPage setRoleAdmin() {
+	roleAdmin.click();
+	return this;
+}
+@Step("Устанавливаем роль колатерал")
+public AddUserPage setRoleCollateralManager() {
+	roleCollateralManager.click();
+	return this;
+}
+@Step("Устанавливаем роль колектор")
+public AddUserPage setRoleCollector() {
+	roleCollector.click();
+	return this;
+}
+@Step("Устанавливаем роль лоан менеджер")
+public AddUserPage setRoleLoanManager() {
+	roleLoanManager.click();
+	return this;
+}
+@Step("Устанавливаем роль ориджинатор")
+public AddUserPage setRoleOriginator() {
+	roleOriginator.click();
+	return this;
+}
+@Step("Устанавливаем роль супервизор")
+public AddUserPage setRoleSupervisor() {
+	roleSupervisor.click();
+	return this;
+}
+@Step("Устанавливаем роль андерайтер")
+public AddUserPage setRoleUnderwriter() {
+	roleUnderwriter.click();
+	return this;
+}
+@Step("Устанавливаем отделение")
+public AddUserPage setBranch(String fBranch) {
+	branch.sendKeys(fBranch);;
+	return this;
+}
+@Step("Подтверждаем сохранение")
+public AddUserPage setBtnOk() {
+	btnOk.click();
+	return this;
+}
+@Step("Отклоняем сохранение")
+public AddUserPage setBtnCancel() {
+	btnCancel.click();;
+	return this;
+}
+public AddUserPage setfLabelAddUser(WebElement fLabelAddUser) {
+	
+	return this;
+}
+@Step("Если юзер существует, клацаем конфирмейшн")
+public AddUserPage setBtnCloseIfUserExist(WebElement btnCloseIfUserExist) {
+	this.btnCloseIfUserExist = btnCloseIfUserExist;
+	return this;
+}
+public AddUserPage setLableIfUserExist(WebElement lableIfUserExist) {
+	this.lableIfUserExist = lableIfUserExist;
+	return this;
+}
+@Step("Нажимаем редактировать пользователя")
+public AddUserPage setLableEditUser(WebElement lableEditUser) {
+	this.lableEditUser = lableEditUser;
+	return this;
 }
 
 

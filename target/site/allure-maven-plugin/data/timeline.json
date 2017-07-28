@@ -1,0 +1,42 @@
+{
+  "hosts" : [ {
+    "title" : "anaumenko",
+    "threads" : [ {
+      "title" : "11880@anaumenko.main(1)",
+      "testCases" : [ {
+        "uid" : "4d924bc004ce76c9",
+        "name" : "testEditUser",
+        "title" : "Test edit user",
+        "time" : {
+          "start" : 1499442716843,
+          "stop" : 1499442716850,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "15a214d050412b19",
+        "name" : "testCreateUser",
+        "title" : "Test create user",
+        "time" : {
+          "start" : 1499442720339,
+          "stop" : 1499442736739,
+          "duration" : 16400
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4860af3e7b83cd89",
+        "name" : "testDeleteUser",
+        "title" : "Test delete user",
+        "time" : {
+          "start" : 1499442739666,
+          "stop" : 1499442746782,
+          "duration" : 7116
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

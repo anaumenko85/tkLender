@@ -20,7 +20,8 @@ public class BackFirstPage extends Page{
     public List<WebElement> listOfMenu;
     @FindBy(linkText = "System")
     public WebElement linkSystem;
-
+    @FindBy(linkText = "Origination")
+    public WebElement linkOrigination;
 	public BackFirstPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		super(driver);

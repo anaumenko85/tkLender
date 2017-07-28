@@ -1,0 +1,329 @@
+{
+  "uid" : "15a214d050412b19",
+  "name" : "testCreateUser",
+  "title" : "Test create user",
+  "time" : {
+    "start" : 1499442720339,
+    "stop" : 1499442736739,
+    "duration" : 16400
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 18
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4e3c338335df7275",
+    "name" : "Check entrence to system : Check correct and incorrect login to system",
+    "title" : "Check entrence to system : Check correct and incorrect login to system"
+  },
+  "steps" : [ {
+    "name" : "setUserName[admin]",
+    "title" : "Ввод логина",
+    "time" : {
+      "start" : 1499442718586,
+      "stop" : 1499442718997,
+      "duration" : 411
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPassword[123456]",
+    "title" : "Ввод пароля",
+    "time" : {
+      "start" : 1499442718998,
+      "stop" : 1499442719178,
+      "duration" : 180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submit",
+    "title" : "Нажимаем Submit",
+    "time" : {
+      "start" : 1499442719180,
+      "stop" : 1499442720336,
+      "duration" : 1156
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setlogin[TestLogin]",
+    "title" : "Вводим логин юзера",
+    "time" : {
+      "start" : 1499442723929,
+      "stop" : 1499442724935,
+      "duration" : 1006
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setfPassword[123456]",
+    "title" : "Вводим пароль юзера",
+    "time" : {
+      "start" : 1499442724937,
+      "stop" : 1499442725433,
+      "duration" : 496
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setfFirstName[Test]",
+    "title" : "Вводим имя юзера",
+    "time" : {
+      "start" : 1499442725434,
+      "stop" : 1499442725621,
+      "duration" : 187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setLastName[Test]",
+    "title" : "Вводим фамилию юзера",
+    "time" : {
+      "start" : 1499442725628,
+      "stop" : 1499442725802,
+      "duration" : 174
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setfEmail[test@test.ua]",
+    "title" : "Вводим емаил юзера",
+    "time" : {
+      "start" : 1499442725803,
+      "stop" : 1499442726165,
+      "duration" : 362
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPhone[1234567890]",
+    "title" : "Вводим телефон юзера",
+    "time" : {
+      "start" : 1499442726171,
+      "stop" : 1499442726390,
+      "duration" : 219
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleAdmin",
+    "title" : "Устанавливаем роль админ",
+    "time" : {
+      "start" : 1499442726394,
+      "stop" : 1499442726569,
+      "duration" : 175
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleCollateralManager",
+    "title" : "Устанавливаем роль колатерал",
+    "time" : {
+      "start" : 1499442726573,
+      "stop" : 1499442726794,
+      "duration" : 221
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleCollector",
+    "title" : "Устанавливаем роль колектор",
+    "time" : {
+      "start" : 1499442726798,
+      "stop" : 1499442726931,
+      "duration" : 133
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleLoanManager",
+    "title" : "Устанавливаем роль лоан менеджер",
+    "time" : {
+      "start" : 1499442726932,
+      "stop" : 1499442727092,
+      "duration" : 160
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleOriginator",
+    "title" : "Устанавливаем роль ориджинатор",
+    "time" : {
+      "start" : 1499442727096,
+      "stop" : 1499442727287,
+      "duration" : 191
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleSupervisor",
+    "title" : "Устанавливаем роль супервизор",
+    "time" : {
+      "start" : 1499442727288,
+      "stop" : 1499442727436,
+      "duration" : 148
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setRoleUnderwriter",
+    "title" : "Устанавливаем роль андерайтер",
+    "time" : {
+      "start" : 1499442727438,
+      "stop" : 1499442727576,
+      "duration" : 138
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setBranch[]",
+    "title" : "Устанавливаем отделение",
+    "time" : {
+      "start" : 1499442727581,
+      "stop" : 1499442728255,
+      "duration" : 674
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setBtnOk",
+    "title" : "Подтверждаем сохранение",
+    "time" : {
+      "start" : 1499442728256,
+      "stop" : 1499442728468,
+      "duration" : 212
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Check correct and incorrect login to system"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateUser"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "thread",
+    "value" : "11880@anaumenko.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "testSuite",
+    "value" : "Check entrence to system"
+  }, {
+    "name" : "testClass",
+    "value" : "com.tklender.test.tkTestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "anaumenko"
+  } ],
+  "parameters" : [ ]
+}

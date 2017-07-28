@@ -1,0 +1,50 @@
+{
+  "uid" : "4d924bc004ce76c9",
+  "name" : "testEditUser",
+  "title" : "Test edit user",
+  "time" : {
+    "start" : 1499442716843,
+    "stop" : 1499442716850,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test not implemented yet",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "4e3c338335df7275",
+    "name" : "Check entrence to system : Check correct and incorrect login to system",
+    "title" : "Check entrence to system : Check correct and incorrect login to system"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "thread",
+    "value" : "11880@anaumenko.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "host",
+    "value" : "anaumenko"
+  } ],
+  "parameters" : [ ]
+}

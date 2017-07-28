@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1499442716843,
+    "stop" : 1499442746782,
+    "duration" : 29939
+  },
+  "testSuites" : [ {
+    "uid" : "4e3c338335df7275",
+    "name" : "Check entrence to system : Check correct and incorrect login to system",
+    "title" : "Check entrence to system : Check correct and incorrect login to system",
+    "time" : {
+      "start" : 1499442716843,
+      "stop" : 1499442746782,
+      "duration" : 29939
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4d924bc004ce76c9",
+      "name" : "testEditUser",
+      "title" : "Test edit user",
+      "time" : {
+        "start" : 1499442716843,
+        "stop" : 1499442716850,
+        "duration" : 7
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "15a214d050412b19",
+      "name" : "testCreateUser",
+      "title" : "Test create user",
+      "time" : {
+        "start" : 1499442720339,
+        "stop" : 1499442736739,
+        "duration" : 16400
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4860af3e7b83cd89",
+      "name" : "testDeleteUser",
+      "title" : "Test delete user",
+      "time" : {
+        "start" : 1499442739666,
+        "stop" : 1499442746782,
+        "duration" : 7116
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499442716070" stop="1499442748436" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Check entrence to system : Check correct and incorrect login to system</name>
+    <title>Check entrence to system : Check correct and incorrect login to system</title>
+    <test-cases>
+        <test-case start="1499442716843" stop="1499442716850" status="pending">
+            <name>testEditUser</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="anaumenko"/>
+                <label name="thread" value="11880@anaumenko.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1499442720339" stop="1499442736739" status="passed">
+            <name>testCreateUser</name>
+            <steps>
+                <step start="1499442718586" stop="1499442718997" status="passed">
+                    <name>setUserName[admin]</name>
+                    <title>Ввод логина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442718998" stop="1499442719178" status="passed">
+                    <name>setPassword[123456]</name>
+                    <title>Ввод пароля</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442719180" stop="1499442720336" status="passed">
+                    <name>submit</name>
+                    <title>Нажимаем Submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442723929" stop="1499442724935" status="passed">
+                    <name>setlogin[TestLogin]</name>
+                    <title>Вводим логин юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442724937" stop="1499442725433" status="passed">
+                    <name>setfPassword[123456]</name>
+                    <title>Вводим пароль юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442725434" stop="1499442725621" status="passed">
+                    <name>setfFirstName[Test]</name>
+                    <title>Вводим имя юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442725628" stop="1499442725802" status="passed">
+                    <name>setLastName[Test]</name>
+                    <title>Вводим фамилию юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442725803" stop="1499442726165" status="passed">
+                    <name>setfEmail[test@test.ua]</name>
+                    <title>Вводим емаил юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442726171" stop="1499442726390" status="passed">
+                    <name>setPhone[1234567890]</name>
+                    <title>Вводим телефон юзера</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442726394" stop="1499442726569" status="passed">
+                    <name>setRoleAdmin</name>
+                    <title>Устанавливаем роль админ</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442726573" stop="1499442726794" status="passed">
+                    <name>setRoleCollateralManager</name>
+                    <title>Устанавливаем роль колатерал</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442726798" stop="1499442726931" status="passed">
+                    <name>setRoleCollector</name>
+                    <title>Устанавливаем роль колектор</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442726932" stop="1499442727092" status="passed">
+                    <name>setRoleLoanManager</name>
+                    <title>Устанавливаем роль лоан менеджер</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442727096" stop="1499442727287" status="passed">
+                    <name>setRoleOriginator</name>
+                    <title>Устанавливаем роль ориджинатор</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442727288" stop="1499442727436" status="passed">
+                    <name>setRoleSupervisor</name>
+                    <title>Устанавливаем роль супервизор</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442727438" stop="1499442727576" status="passed">
+                    <name>setRoleUnderwriter</name>
+                    <title>Устанавливаем роль андерайтер</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442727581" stop="1499442728255" status="passed">
+                    <name>setBranch[]</name>
+                    <title>Устанавливаем отделение</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442728256" stop="1499442728468" status="passed">
+                    <name>setBtnOk</name>
+                    <title>Подтверждаем сохранение</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Check entrence to system"/>
+                <label name="testGroup" value="Check correct and incorrect login to system"/>
+                <label name="testClass" value="com.tklender.test.tkTestUserPage"/>
+                <label name="testMethod" value="testCreateUser"/>
+                <label name="host" value="anaumenko"/>
+                <label name="thread" value="11880@anaumenko.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1499442739666" stop="1499442746782" status="passed">
+            <name>testDeleteUser</name>
+            <steps>
+                <step start="1499442738297" stop="1499442738664" status="passed">
+                    <name>setUserName[admin]</name>
+                    <title>Ввод логина</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442738668" stop="1499442738931" status="passed">
+                    <name>setPassword[123456]</name>
+                    <title>Ввод пароля</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499442738932" stop="1499442739665" status="passed">
+                    <name>submit</name>
+                    <title>Нажимаем Submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Check entrence to system"/>
+                <label name="testGroup" value="Check correct and incorrect login to system"/>
+                <label name="testClass" value="com.tklender.test.tkTestUserPage"/>
+                <label name="testMethod" value="testDeleteUser"/>
+                <label name="host" value="anaumenko"/>
+                <label name="thread" value="11880@anaumenko.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

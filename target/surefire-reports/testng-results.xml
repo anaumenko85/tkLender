@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< origin
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
@@ -28,10 +29,53 @@
           </reporter-output>
         </test-method> <!-- logout -->
         <test-method status="PASS" signature="tearDownAfterSuite()[pri:0, instance:com.tklender.test.tkTestUserPage@7334aada]" name="tearDownAfterSuite" is-config="true" duration-ms="1119" started-at="2017-03-20T14:12:30Z" finished-at="2017-03-20T14:12:31Z">
+=======
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Check entrence to system" duration-ms="32327" started-at="2017-07-07T15:51:56Z" finished-at="2017-07-07T15:52:28Z">
+    <groups>
+    </groups>
+    <test name="Check correct and incorrect login to system" duration-ms="32327" started-at="2017-07-07T15:51:56Z" finished-at="2017-07-07T15:52:28Z">
+      <class name="com.tklender.test.tkTestUserPage">
+        <test-method status="PASS" signature="setUpBeforeSuite()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="setUpBeforeSuite" is-config="true" duration-ms="18" started-at="2017-07-07T18:51:56Z" finished-at="2017-07-07T18:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2017-07-07T18:51:56Z" finished-at="2017-07-07T18:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="login" is-config="true" duration-ms="3449" started-at="2017-07-07T18:51:56Z" finished-at="2017-07-07T18:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateUser()[pri:1, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="testCreateUser" duration-ms="16403" started-at="2017-07-07T18:52:00Z" finished-at="2017-07-07T18:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="logout" is-config="true" duration-ms="593" started-at="2017-07-07T18:52:16Z" finished-at="2017-07-07T18:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="login" is-config="true" duration-ms="2275" started-at="2017-07-07T18:52:17Z" finished-at="2017-07-07T18:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:3, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="testDeleteUser" duration-ms="7116" started-at="2017-07-07T18:52:19Z" finished-at="2017-07-07T18:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="logout" is-config="true" duration-ms="1587" started-at="2017-07-07T18:52:26Z" finished-at="2017-07-07T18:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDownAfterSuite()[pri:0, instance:com.tklender.test.tkTestUserPage@1701beb3]" name="tearDownAfterSuite" is-config="true" duration-ms="2215" started-at="2017-07-07T18:52:28Z" finished-at="2017-07-07T18:52:31Z">
+>>>>>>> local
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterSuite -->
       </class> <!-- com.tklender.test.tkTestUserPage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Check correct and incorrect login to system -->
+  </suite> <!-- Check entrence to system -->
 </testng-results>

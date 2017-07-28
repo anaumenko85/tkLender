@@ -1,0 +1,104 @@
+{
+  "uid" : "4860af3e7b83cd89",
+  "name" : "testDeleteUser",
+  "title" : "Test delete user",
+  "time" : {
+    "start" : 1499442739666,
+    "stop" : 1499442746782,
+    "duration" : 7116
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4e3c338335df7275",
+    "name" : "Check entrence to system : Check correct and incorrect login to system",
+    "title" : "Check entrence to system : Check correct and incorrect login to system"
+  },
+  "steps" : [ {
+    "name" : "setUserName[admin]",
+    "title" : "Ввод логина",
+    "time" : {
+      "start" : 1499442738297,
+      "stop" : 1499442738664,
+      "duration" : 367
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setPassword[123456]",
+    "title" : "Ввод пароля",
+    "time" : {
+      "start" : 1499442738668,
+      "stop" : 1499442738931,
+      "duration" : 263
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submit",
+    "title" : "Нажимаем Submit",
+    "time" : {
+      "start" : 1499442738932,
+      "stop" : 1499442739665,
+      "duration" : 733
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Check correct and incorrect login to system"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteUser"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-name",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "thread",
+    "value" : "11880@anaumenko.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Check entrence to system : Check correct and incorrect login to system"
+  }, {
+    "name" : "testSuite",
+    "value" : "Check entrence to system"
+  }, {
+    "name" : "testClass",
+    "value" : "com.tklender.test.tkTestUserPage"
+  }, {
+    "name" : "host",
+    "value" : "anaumenko"
+  } ],
+  "parameters" : [ ]
+}

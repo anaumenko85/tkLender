@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tklender.test.tkTestCreateNewApp">
+        <methods>
+          <include name="login"/>
+          <include name="testCreateNewApp"/>
+          <include name="logout"/>
+          <include name="setUpBeforeSuite"/>
+          <include name="tearDownAfterSuite"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.tklender.test.tkTestCreateNewApp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

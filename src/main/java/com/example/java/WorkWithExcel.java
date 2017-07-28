@@ -16,6 +16,7 @@ public class WorkWithExcel {
 		readFromExcel(ConfigProperties.getProperty("excel.path"));
 	  }
 
+	@SuppressWarnings("deprecation")
 	public static void readFromExcel(String file) throws IOException{
 	HSSFWorkbook myExcelBook = new HSSFWorkbook(new FileInputStream(file));
     HSSFSheet myExcelSheet = myExcelBook.getSheet("Sheet1");

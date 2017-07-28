@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class SystemPage extends Page {
 	//private WebDriver driver;
 		
-	@FindBy(linkText = "ADD USER")
+	@FindBy(css = ".btn.btn-primary.ng-scope")//css = "button[ng-click=\"addUser\"]"
     public WebElement btnAddUser;
 	
     @FindBy(css="button[ng-click=\"remove()\"]")
@@ -34,6 +34,12 @@ public class SystemPage extends Page {
     
     @FindBy(css="div.action-btn > a")
     public WebElement btnEditUser;
+    
+    @FindBy(linkText = "Credit Products")
+    public WebElement btnCreditProducts;
+    
+    @FindBy(css = ".btn.btn-primary")
+    public WebElement btnAddCreditProduct;
 	
 	public SystemPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
